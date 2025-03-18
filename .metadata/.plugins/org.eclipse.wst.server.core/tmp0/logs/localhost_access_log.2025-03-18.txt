@@ -1,2 +1,4 @@
 127.0.0.1 - - [18/Mar/2025:11:02:07 +0800] "GET / HTTP/1.1" 404 700
 0:0:0:0:0:0:0:1 - - [18/Mar/2025:11:02:07 +0800] "GET /springAnnotation/WEB-INF/classes/cn/bhu/test/Test.java HTTP/1.1" 404 648
+127.0.0.1 - - [18/Mar/2025:11:23:47 +0800] "GET / HTTP/1.1" 404 700
+0:0:0:0:0:0:0:1 - - [18/Mar/2025:11:23:48 +0800] "GET /springAnnotation/WEB-INF/classes/cn/bhu/config/SpringConfig.java HTTP/1.1" 404 648
