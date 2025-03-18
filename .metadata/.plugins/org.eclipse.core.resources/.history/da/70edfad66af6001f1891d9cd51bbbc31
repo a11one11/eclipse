@@ -1,0 +1,16 @@
+package cn.bhu.edu.web;
+
+import cn.bhu.edu.domain.Student;
+
+public class Text {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Student stud=new Student();
+			stud.setXh("1001");
+			stud.setUserName("Mike");
+			stud.setAge(22);
+			sysout
+	}
+
+}

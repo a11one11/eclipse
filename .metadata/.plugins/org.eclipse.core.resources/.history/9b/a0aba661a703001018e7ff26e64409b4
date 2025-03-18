@@ -1,0 +1,21 @@
+package cn.bhu.service;
+
+import cn.bhu.dao.StudDaoImpl;
+import cn.bhu.domain.Student;
+
+public class StudServiceImpl implements IStudService {
+	private StudDaoImpl studDao;
+
+	@Override
+	public void addStudent(Student student) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void removeStudent(String id) {
+		// TODO Auto-generated method stub
+			studDao.delete(id);
+	}
+
+}

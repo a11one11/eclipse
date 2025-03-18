@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="studentDaoImpl" class="cn.bhu.dao.impl.StudentDaoImpl">
+        
+        </bean>
+        <bean id="studManagerImpl" class="cn.bhu.service.StudManagerImpl">
+        <property name="studDao" ref="studentDaoImpl"></property>
+        </bean>
+        <bean id="date" class="java.util.Date">
+        <property name="year" value="125"/>
+        <property name="month" value="0"></property>
+        <property name="date" value="22"></property>
+        </bean>
+        <bean id="univ" class="cn.bhu.domain.University">
+        <property name="uname" value="渤海大学"></property>
+        <property name="address" value="锦州市"></property>
+        </bean>
+        <bean id="student" class="cn.bhu.domain.Student">
+       
+        <property name="name" value="张三"></property>
+        <property name="favs" value="旅游,电影,网游"></property>
+        <property name="birthday" ref="date"></property>
+        <property name="university" ref="univ"></property>
+        <property name="lists">
+        <list>
+        <value>高数</value>
+        <value>体育</value>
+        </list>
+        </property>
+        <property name="sets">
+        <set>
+        <value>你好2</value>
+        <value>你好1</value>
+        </set>
+        </property>
+        <property name="maps" >
+        <map>
+        <entry>
+        <key>
+        <value>name</value>
+        </key>
+        <value>李四</value>
+        </entry>
+         <entry>
+        <key>
+        <value>add</value>
+        </key>
+        <value>辽宁</value>
+        </entry>
+        </map>
+        </property>
+        <property name="props">
+        <props>
+        <prop key="sdf">等等</prop>
+        <prop key="abc">对对对</prop>
+        </props>
+        </property>
+        </bean>
+        
+       </beans>

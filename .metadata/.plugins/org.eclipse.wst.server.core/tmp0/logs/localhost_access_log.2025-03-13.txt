@@ -1,0 +1,9 @@
+127.0.0.1 - - [13/Mar/2025:11:59:40 +0800] "GET / HTTP/1.1" 404 700
+0:0:0:0:0:0:0:1 - - [13/Mar/2025:11:59:41 +0800] "GET /examsystem/ HTTP/1.1" 200 4463
+0:0:0:0:0:0:0:1 - - [13/Mar/2025:11:59:42 +0800] "GET /examsystem/user/ImageServlet HTTP/1.1" 200 1225
+0:0:0:0:0:0:0:1 - - [13/Mar/2025:11:59:44 +0800] "GET /examsystem/images/bg.jpg HTTP/1.1" 200 29697
+0:0:0:0:0:0:0:1 - - [13/Mar/2025:12:01:10 +0800] "GET /examsystem/ HTTP/1.1" 200 4463
+0:0:0:0:0:0:0:1 - - [13/Mar/2025:12:01:10 +0800] "GET /examsystem/user/ImageServlet HTTP/1.1" 200 1324
+0:0:0:0:0:0:0:1 - - [13/Mar/2025:12:03:23 +0800] "GET /examsystem/ HTTP/1.1" 200 4463
+0:0:0:0:0:0:0:1 - - [13/Mar/2025:12:03:23 +0800] "GET /examsystem/user/ImageServlet HTTP/1.1" 200 1202
+0:0:0:0:0:0:0:1 - - [13/Mar/2025:12:03:24 +0800] "GET /examsystem/images/bg.jpg HTTP/1.1" 304 -

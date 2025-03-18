@@ -1,0 +1,22 @@
+package cn.bhu.edu.web;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import cn.bhu.edu.domain.Student;
+
+public class Text {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * Student stud=new Student(); stud.setXh("1001"); stud.setUserName("Mike");
+		 * stud.setAge(22);
+		 */
+		ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("cn/bhu/edu/domain/aa.xml");
+		Student stud=(Student) context.getBean("stud");
+		
+		     System.out.println(stud);
+
+	}
+
+}
